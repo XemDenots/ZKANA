@@ -12,7 +12,7 @@ CLASS lcl_kana2 DEFINITION INHERITING FROM lcl_kana.
       set_up REDEFINITION,
       check_input REDEFINITION,
       get_prev_kana RETURNING VALUE(rs_prev_kana) TYPE ty_kana,
-      get_curr_kana returning value(rs_curr_kana) type ty_kana.
+      get_curr_kana RETURNING VALUE(rs_curr_kana) TYPE ty_kana.
     DATA:
       mr_stats           TYPE REF TO lcl_kana_statistics,
       mr_screenhandlerv2 TYPE REF TO lcl_screen_handlerv2.

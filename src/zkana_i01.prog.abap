@@ -17,6 +17,8 @@ MODULE user_command_0100 INPUT.
       SET SCREEN 0.
     WHEN 'EXIT'.
       LEAVE PROGRAM.
+    WHEN 'STATS'.
+      gr_kana->mr_screenhandlerv3->show_det_stats( ).
   ENDCASE.
 ENDMODULE.
 *&---------------------------------------------------------------------*

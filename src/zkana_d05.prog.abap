@@ -8,7 +8,7 @@ CLASS lcl_screen_handlerv2 DEFINITION INHERITING FROM lcl_screen_handler.
         avg_time       TYPE i,
         avg_ok         TYPE i,
         avg_wrong      TYPE i,
-        kana           type lcl_kana2=>ty_kana-romaji,
+        kana           TYPE lcl_kana2=>ty_kana-romaji,
         avg_kana_time  TYPE i,
         avg_kana_ok    TYPE i,
         avg_kana_wrong TYPE i,

@@ -48,7 +48,6 @@ CLASS lcl_kana_statistics DEFINITION.
       display,
       input,
       get_results RETURNING VALUE(rs_results) TYPE lcl_screen_handlerv2=>ty_results,
-*      get_cumulative RETURNING VALUE(rs_cumulative) type ty_cumulative,
       set_source IMPORTING ir_source TYPE REF TO lcl_kana2,
       input_ok,
       input_wrong.

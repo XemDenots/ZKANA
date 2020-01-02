@@ -367,6 +367,15 @@
       <FUN_TEXT>Save</FUN_TEXT>
      </RSMPE_FUNT>
      <RSMPE_FUNT>
+      <CODE>STATS</CODE>
+      <TEXTNO>001</TEXTNO>
+      <TEXT_TYPE>S</TEXT_TYPE>
+      <TEXT_NAME>ICON_STATISTICS</TEXT_NAME>
+      <ICON_ID>@FG@</ICON_ID>
+      <FUN_TEXT>Statistics</FUN_TEXT>
+      <INFO_TEXT>Performance Statistics</INFO_TEXT>
+     </RSMPE_FUNT>
+     <RSMPE_FUNT>
       <CODE>UP</CODE>
       <TEXTNO>001</TEXTNO>
       <TEXT_TYPE>S</TEXT_TYPE>
@@ -444,11 +453,25 @@
       <MENUCODE>000003</MENUCODE>
      </RSMPE_ACT>
     </ACT>
+    <BUT>
+     <RSMPE_BUT>
+      <PFK_CODE>000001</PFK_CODE>
+      <CODE>0001</CODE>
+      <NO>01</NO>
+      <PFNO>02</PFNO>
+     </RSMPE_BUT>
+    </BUT>
     <PFK>
      <RSMPE_PFK>
       <CODE>000001</CODE>
       <PFNO>00</PFNO>
       <FUNCODE>ENTER</FUNCODE>
+      <FUNNO>001</FUNNO>
+     </RSMPE_PFK>
+     <RSMPE_PFK>
+      <CODE>000001</CODE>
+      <PFNO>02</PFNO>
+      <FUNCODE>STATS</FUNCODE>
       <FUNNO>001</FUNNO>
      </RSMPE_PFK>
      <RSMPE_PFK>
@@ -492,6 +515,10 @@
      <RSMPE_STAF>
       <STATUS>STATUS_MAIN</STATUS>
       <FUNCTION>SAVE</FUNCTION>
+     </RSMPE_STAF>
+     <RSMPE_STAF>
+      <STATUS>STATUS_MAIN</STATUS>
+      <FUNCTION>STATS</FUNCTION>
      </RSMPE_STAF>
      <RSMPE_STAF>
       <STATUS>STATUS_MAIN</STATUS>

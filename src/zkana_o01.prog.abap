@@ -8,5 +8,6 @@
 *&---------------------------------------------------------------------*
 MODULE status_0100 OUTPUT.
   gr_kana->mr_screenhandlerv2->status_0100( ).
-  gr_kana->mr_screenhandlerv2->show_0100( ).
+  "gr_kana->mr_screenhandlerv2->show_0100( )."JACM20190625_3-}
+  gr_kana->mr_screenhandlerv3->show_0100( )."JACM20190625_3+
 ENDMODULE.

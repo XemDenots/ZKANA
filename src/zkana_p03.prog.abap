@@ -93,23 +93,6 @@ CLASS lcl_kana_statistics IMPLEMENTATION.
       ls_curr_kana    TYPE lcl_kana2=>ty_kana,
       ls_frequency    TYPE ty_frequency.
 
-    DATA: lv_dif TYPE i.
-*      BEGIN OF ty_results,
-*        avg_time       TYPE i,
-*        avg_ok         TYPE i,
-*        avg_wrong      TYPE i,
-*        avg_kana_time  TYPE i,
-*        avg_kana_ok    TYPE i,
-*        avg_kana_wrong TYPE i,
-*      END OF ty_results.
-
-
-*      BEGIN OF ty_statistics,
-*        time   TYPE ty_timestamp,
-*        status TYPE ty_status,
-*        romaji TYPE lcl_kana=>ty_kana-romaji,
-*      END OF ty_statistics,
-
     IF ms_cumulatives-absolute < 2.
       CLEAR rs_results.
       RETURN.
